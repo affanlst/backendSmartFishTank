@@ -7,7 +7,7 @@
         "runtime": "edge"
       }
     },
-    "cron": [
+    "crons": [
       {
         "path": "/api/drainage",
         "schedule": "*/2 * * * *"
