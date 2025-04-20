@@ -1,0 +1,21 @@
+{
+    "functions": {
+      "api/drainage.ts": {
+        "runtime": "edge"
+      },
+      "api/auto-off.ts": {
+        "runtime": "edge"
+      }
+    },
+    "crons": [
+      {
+        "path": "/api/drainage",
+        "schedule": "*/2 * * * *"
+      },
+      {
+        "path": "/api/auto-off",
+        "schedule": "*/5 * * * *"
+      }
+    ]
+  }
+  
